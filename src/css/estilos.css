@@ -1,0 +1,63 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+}
+
+.foto {
+    border-radius: 200px;
+    width: 100px;
+    padding: 10px;
+}
+
+.cartao {
+    background-color: hsl(0, 0%, 12%);
+    width: 320px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.endereco {
+    color: rgb(0, 166, 216);
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+    font-weight: 400;
+}
+
+.nome {
+    padding-top: 20px;
+    font-size: 23px;
+    font-weight: 400;
+    font-weight: 600;
+}
+
+button {
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    width: 250px;
+    height: 35px;
+    margin: 5px;
+    border: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(0, 166, 216);
+    color: hsl(0, 0%, 20%);
+}
+
+.paragrafo {
+    padding: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
